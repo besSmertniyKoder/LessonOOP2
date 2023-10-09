@@ -1,20 +1,17 @@
-import data.Student;
-import data.Teacher;
-import data.User;
-
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Student student = new Student("ivan", "ivanov",
-                "25.07.1997", 25);
-       Teacher teacher = new Teacher("ivan1", "ivanov",
-                "25.07.1965", "IT");
+        Capybara capybara = new Capybara();
+      capybara.voice();
+      Car bmw = new Car();
+      bmw.use();
+      bmw.move();
+//      bmw.heatUp();
 
-
-
-
-        System.out.println(student.toString());
-        System.out.println(teacher.toString());
     }
-
 }
+
+
+
+
