@@ -1,14 +1,12 @@
+import view.CatView;
+
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Capybara capybara = new Capybara();
-      capybara.voice();
-      Car bmw = new Car();
-      bmw.use();
-      bmw.move();
-//      bmw.heatUp();
-
+        CatView catView = new CatView();
+        catView.saveACat("murzik","persian", 4, 6);
+        catView.getACat("murzik");
     }
 }
 
